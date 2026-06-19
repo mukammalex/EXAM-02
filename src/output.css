@@ -944,6 +944,9 @@
   .bg-\[url\(\/img\/laki\.png\)\] {
     background-image: url(/img/laki.png);
   }
+  .bg-\[url\(\/img\/lolo\.png\)\] {
+    background-image: url(/img/lolo.png);
+  }
   .bg-\[url\(\/img\/opo\.png\)\] {
     background-image: url(/img/opo.png);
   }
@@ -2044,6 +2047,11 @@
   .lg\:gap-10 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:gap-15 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 15);
     }
   }
   .lg\:gap-20 {
