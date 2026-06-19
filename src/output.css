@@ -336,6 +336,27 @@
   .top-\[vh\] {
     top: vh;
   }
+  .right-0 {
+    right: 0;
+  }
+  .right-9 {
+    right: calc(var(--spacing) * 9);
+  }
+  .right-40 {
+    right: calc(var(--spacing) * 40);
+  }
+  .right-70 {
+    right: calc(var(--spacing) * 70);
+  }
+  .right-80 {
+    right: calc(var(--spacing) * 80);
+  }
+  .right-90 {
+    right: calc(var(--spacing) * 90);
+  }
+  .right-95 {
+    right: calc(var(--spacing) * 95);
+  }
   .left-0 {
     left: 0;
   }
@@ -1097,6 +1118,11 @@
       top: 20vh;
     }
   }
+  .md\:right-95 {
+    @media (width >= 48rem) {
+      right: calc(var(--spacing) * 95);
+    }
+  }
   .md\:left-0 {
     @media (width >= 48rem) {
       left: 0;
@@ -1140,6 +1166,11 @@
   .md\:mt-20 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:mt-40 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 40);
     }
   }
   .md\:mb-10 {
@@ -1484,6 +1515,11 @@
       top: 0;
     }
   }
+  .lg\:top-10 {
+    @media (width >= 64rem) {
+      top: calc(var(--spacing) * 10);
+    }
+  }
   .lg\:top-30 {
     @media (width >= 64rem) {
       top: calc(var(--spacing) * 30);
@@ -1684,6 +1720,11 @@
       flex-direction: row;
     }
   }
+  .lg\:flex-row-reverse {
+    @media (width >= 64rem) {
+      flex-direction: row-reverse;
+    }
+  }
   .lg\:flex-nowrap {
     @media (width >= 64rem) {
       flex-wrap: nowrap;
@@ -1712,6 +1753,16 @@
   .lg\:justify-start {
     @media (width >= 64rem) {
       justify-content: flex-start;
+    }
+  }
+  .lg\:gap-5 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
     }
   }
   .lg\:bg-no-repeat {
@@ -1774,6 +1825,12 @@
       text-align: start;
     }
   }
+  .lg\:text-2xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
   .lg\:text-5xl {
     @media (width >= 64rem) {
       font-size: var(--text-5xl);
@@ -1790,6 +1847,12 @@
     @media (width >= 64rem) {
       font-size: var(--text-7xl);
       line-height: var(--tw-leading, var(--text-7xl--line-height));
+    }
+  }
+  .lg\:text-xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
   .lg\:font-bold {
