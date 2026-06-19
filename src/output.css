@@ -920,6 +920,24 @@
   .bg-\[url\(\)\] {
     background-image: url();
   }
+  .bg-\[url\(\.\.\/img\/084\.png\)\] {
+    background-image: url(../img/084.png);
+  }
+  .bg-\[url\(\.\.\/img\/gogo\.png\)\] {
+    background-image: url(../img/gogo.png);
+  }
+  .bg-\[url\(\.\.\/img\/laki\.png\)\] {
+    background-image: url(../img/laki.png);
+  }
+  .bg-\[url\(\.\.\/img\/lolo\.png\)\] {
+    background-image: url(../img/lolo.png);
+  }
+  .bg-\[url\(\.\.\/img\/opo\.png\)\] {
+    background-image: url(../img/opo.png);
+  }
+  .bg-\[url\(\.\.\/img\/uae\.png\)\] {
+    background-image: url(../img/uae.png);
+  }
   .bg-\[url\(\.\/\)\] {
     background-image: url(./);
   }
