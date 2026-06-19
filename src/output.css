@@ -600,6 +600,9 @@
   .w-140 {
     width: calc(var(--spacing) * 140);
   }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
+  }
   .w-300 {
     width: calc(var(--spacing) * 300);
   }
@@ -700,8 +703,17 @@
       margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
+  .overflow-auto {
+    overflow: auto;
+  }
   .overflow-hidden {
     overflow: hidden;
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  .overflow-x-scroll {
+    overflow-x: scroll;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
